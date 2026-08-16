@@ -1,0 +1,182 @@
+{
+  "name": "Total Corporate Budget",
+  "color": "#090d16",
+  "children": [
+    {
+      "name": "Engineering",
+      "color": "#1e3a8a",
+      "children": [
+        {
+          "name": "Infrastructure",
+          "color": "#0369a1",
+          "children": [
+            {
+              "name": "Cloud Platform",
+              "color": "#0284c7",
+              "children": [
+                { "name": "Cloud Compute Clusters", "value": 280000, "color": "#7DD3FC" },
+                { "name": "Database Failover & Hosting", "value": 120000, "color": "#BAE6FD" },
+                { "name": "CDN & Networking", "value": 65000, "color": "#E0F2FE" }
+              ]
+            },
+            {
+              "name": "DevOps",
+              "color": "#0ea5e9",
+              "children": [
+                { "name": "CI/CD Automation", "value": 50000, "color": "#BAE6FD" },
+                { "name": "Container Registry", "value": 25000, "color": "#E0F2FE" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Software Development",
+          "color": "#0f766e",
+          "children": [
+            {
+              "name": "Backend Engineering",
+              "color": "#0d9488",
+              "children": [
+                { "name": "API Gateway", "value": 210000, "color": "#BAE6FD" },
+                { "name": "Message Broker & Bus", "value": 110000, "color": "#E0F2FE" },
+                { "name": "Authentication Service", "value": 85000, "color": "#F0F9FF" }
+              ]
+            },
+            {
+              "name": "Frontend & Mobile",
+              "color": "#14b8a6",
+              "children": [
+                { "name": "Web App Development", "value": 140000, "color": "#E0F2FE" },
+                { "name": "Mobile Apps (iOS/Android)", "value": 125000, "color": "#F0F9FF" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research & Development",
+      "color": "#4c1d95",
+      "children": [
+        {
+          "name": "AI & Machine Learning",
+          "color": "#6d28d9",
+          "children": [
+            {
+              "name": "AI Infrastructure",
+              "color": "#7c3aed",
+              "children": [
+                { "name": "GPU Cloud Leases", "value": 230000, "color": "#C4B5FD" },
+                { "name": "LLM Fine-Tuning", "value": 120000, "color": "#DDD6FE" },
+                { "name": "Vector Databases", "value": 75000, "color": "#EDE9FE" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hardware R&D",
+          "color": "#5b21b6",
+          "children": [
+            {
+              "name": "Quantum Computing",
+              "color": "#8b5cf6",
+              "children": [
+                { "name": "Cryogenic Cooling Chambers", "value": 110000, "color": "#DDD6FE" },
+                { "name": "Silicon Photonics Testing", "value": 90000, "color": "#EDE9FE" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Operations & Legal",
+      "color": "#334155",
+      "children": [
+        {
+          "name": "Facilities & Real Estate",
+          "color": "#475569",
+          "children": [
+            {
+              "name": "HQ Office Operations",
+              "color": "#64748b",
+              "children": [
+                { "name": "Office Rent & Leases", "value": 190000, "color": "#CBD5E1" },
+                { "name": "Data Center Utilities", "value": 45000, "color": "#E2E8F0" }
+              ]
+            },
+            {
+              "name": "Remote Work Logistics",
+              "color": "#94a3b8",
+              "children": [
+                { "name": "Coworking Stipends", "value": 90000, "color": "#E2E8F0" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legal & Compliance",
+          "color": "#3f3f46",
+          "children": [
+            {
+              "name": "Intellectual Property",
+              "color": "#52525b",
+              "children": [
+                { "name": "Patent Filings", "value": 85000, "color": "#E2E8F0" }
+              ]
+            },
+            {
+              "name": "Finance & Risk Management",
+              "color": "#71717a",
+              "children": [
+                { "name": "Financial Audits", "value": 55000, "color": "#F1F5F9" },
+                { "name": "Cyber Insurance", "value": 30000, "color": "#F8FAFC" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "color": "#7c2d12",
+      "children": [
+        {
+          "name": "Growth Marketing",
+          "color": "#c2410c",
+          "children": [
+            {
+              "name": "Paid Advertising",
+              "color": "#ea580c",
+              "children": [
+                { "name": "Search & Social Ads", "value": 250000, "color": "#FDBA74" },
+                { "name": "Retargeting Ads", "value": 115000, "color": "#FED7AA" }
+              ]
+            },
+            {
+              "name": "Affiliate Marketing",
+              "color": "#f97316",
+              "children": [
+                { "name": "Affiliate Commissions", "value": 140000, "color": "#FED7AA" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Public Relations",
+          "color": "#b45309",
+          "children": [
+            {
+              "name": "Communications",
+              "color": "#d97706",
+              "children": [
+                { "name": "PR Agencies", "value": 70000, "color": "#FFEDD5" },
+                { "name": "Video & Media Production", "value": 40000, "color": "#FFF7ED" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
