@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Scatter Plot · Projection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>✦ 3D Scatter Plot Projection</h1>
+
+    <div class="controls">
+      <div class="control-group">
+        <label for="projectionSelect">Projection</label>
+        <select id="projectionSelect">
+          <option value="orthographic">Orthographic</option>
+          <option value="perspective" selected>Perspective</option>
+        </select>
+      </div>
+      
+
+      <div class="control-group">
+        <label for="yawSlider">Yaw</label>
+        <input type="range" id="yawSlider" min="-180" max="180" value="30" step="0.5" />
+        <span id="yawValue" style="min-width: 2.8rem; color: #aac; font-size: 0.85rem;">30°</span>
+      </div>
+
+      <!-- Pitch slider -->
+      <div class="control-group">
+        <label for="pitchSlider">Pitch</label>
+        <input type="range" id="pitchSlider" min="-90" max="90" value="20" step="0.5" />
+        <span id="pitchValue" style="min-width: 2.8rem; color: #aac; font-size: 0.85rem;">20°</span>
+      </div>
+
+      <!-- Roll slider -->
+      <div class="control-group">
+        <label for="rollSlider">Roll</label>
+        <input type="range" id="rollSlider" min="-180" max="180" value="0" step="0.5" />
+        <span id="rollValue" style="min-width: 2.8rem; color: #aac; font-size: 0.85rem;">0°</span>
+      </div>
+
+      <div class="control-group checkbox-group">
+        <input type="checkbox" id="autoRotateCheckbox" checked />
+        <label for="autoRotateCheckbox">Auto Rotate</label>
+      </div>
+    </div>
+
+    <div class="canvas-wrapper">
+      <canvas id="Canvas" width="900" height="600"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+<div class="author">
+    <strong>Nandhini N</strong>
+</div>
+
+</body>
+</html>
